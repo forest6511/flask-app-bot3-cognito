@@ -1,0 +1,8 @@
+{% extends "layout.html" %}
+{% block content %}
+<h3>ユーザー登録</h3>
+    <form action="/register/email" method="post">
+    メールアドレス：<input type="text" name="email" />
+        <input type="submit" value="送信">
+    </form>
+{% endblock %}

@@ -1,0 +1,7 @@
+{% extends "layout.html" %}
+{% block content %}
+    <h3>ユーザー登録完了</h3>
+    <form action="/register/pre_user" method="post">
+        メールアドレス：{{ email }}
+    </form>
+{% endblock %}
