@@ -43,3 +43,8 @@ response= {'ResponseMetadata': {'HTTPStatusCode': 200, 'RetryAttempts': 0,
 {'Name': 'email', 'Value': 'hogehoge@hoge.hoe'}], 
 'Enabled': True}}
 ```  
+
+---
+### 参照
+* https://boto3.readthedocs.io/en/latest/reference/services/cognito-idp.html#CognitoIdentityProvider.Client.admin_create_user
+* https://qiita.com/jp_ibis/items/4fffb3c924504f0ce6fb
